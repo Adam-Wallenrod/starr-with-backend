@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>Welcome</h1>
+    <h2>Starr App</h2>
+  </div>
+
+</div>
+
+
+
+<div class="container-1"
+     [ngStyle]="{'flex-direction': isRowDirection ? 'row' : 'column' }"
+>
+
+
+  <div class="box-1 box-week">
+    <h2>Picture of a week</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="box-2 box-month">
+    <h2>Picture of a month</h2>
+    <p>Ut at pharetra orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+  </div>
+
+  <div class="box-3 box-month">
+    <h2>Picture of a year</h2>
+    <p>Suspendisse potenti. Suspendisse tellus metus, pulvinar at lacinia sed, elementum at lectus.</p>
+  </div>
+
+
+</div>
+
+<button (click)="toggleFlexDirection()"
+        class="btn btn-primary toggle-flex-btn">
+  <span *ngIf="isRowDirection; else columnTextRef">
+    Column view
+  </span>
+
+  <ng-template #columnTextRef>
+    <span>Row view</span>
+  </ng-template>
+
+</button>
+
+
+<app-upload></app-upload>
+
+<app-rating-input></app-rating-input>
