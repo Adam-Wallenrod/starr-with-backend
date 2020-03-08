@@ -2,7 +2,7 @@ import {
   Component,
   forwardRef,
   HostBinding,
-  Input,
+  Input, OnInit,
 } from '@angular/core';
 import {ControlValueAccessor, NG_VALUE_ACCESSOR} from "@angular/forms";
 
@@ -18,7 +18,7 @@ import {ControlValueAccessor, NG_VALUE_ACCESSOR} from "@angular/forms";
     }
   ]
 })
-export class RatingInputComponent implements ControlValueAccessor {
+export class RatingInputComponent implements ControlValueAccessor, OnInit {
 
 
 
@@ -29,6 +29,8 @@ export class RatingInputComponent implements ControlValueAccessor {
   get opacity() {
     return this.disabled ? 0.25: 1;
   }
+
+  @Input() initNumberOfStars: number;
 
   // Function to call when the rating changes
   onChange = (rating: number) => {};
@@ -47,6 +49,12 @@ export class RatingInputComponent implements ControlValueAccessor {
   constructor() {
   }
 
+
+  ngOnInit(): void {
+     if( this.initNumberOfStars >= 0 && this.initNumberOfStars <= 5) {
+       this.rate(this.initNumberOfStars);
+     }
+  }
 
   rate(rating: number) {
 

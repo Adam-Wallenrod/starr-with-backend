@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c159670-f406-450c-a52d-23c843845280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starr-app-master/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starr-app-master/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.sandbox.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.sandbox.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,32 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starr-app-master/angular.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="159" column="27" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starr-app-master/src/main.playground.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.sandbox.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="460">
+              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -51,13 +32,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#83#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="302">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="820">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -79,6 +75,7 @@
       <find>express.r</find>
       <find>FocusDirective</find>
       <find>&lt;app-ra</find>
+      <find>value</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,15 +115,17 @@
         <option value="$PROJECT_DIR$/starr-app-master/tsconfig.playground.json" />
         <option value="$PROJECT_DIR$/starr-app-master/angular.json" />
         <option value="$PROJECT_DIR$/starr-app-master/src/main.playground.ts" />
+        <option value="$PROJECT_DIR$/starr-app-master/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.html" />
+        <option value="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.ts" />
         <option value="$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.sandbox.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="656" />
-    <option name="y" value="10" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,22 +173,12 @@
               <item name="starr-app-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="rating-input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starr-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starr-app" type="462c0819:PsiDirectoryNode" />
-              <item name="starr-app-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,6 +254,9 @@
       <workItem from="1583607982177" duration="978000" />
       <workItem from="1583610028881" duration="1791000" />
       <workItem from="1583611968795" duration="197000" />
+      <workItem from="1583612282546" duration="216000" />
+      <workItem from="1583683156045" duration="1816000" />
+      <workItem from="1583685041819" duration="478000" />
     </task>
     <task id="LOCAL-00001" summary="Created dialog.component;">
       <created>1574804427667</created>
@@ -314,17 +307,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576420313224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Installed angular-playground;">
+      <created>1583612336381</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583612336381</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58171000" />
+    <option name="totallyTimeSpent" value="60681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44123933" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.58064514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -336,7 +336,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32264957" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31944445" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32083333" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32910052" />
@@ -345,7 +345,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21282221" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30138797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,10 +356,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32294616" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40509915" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32264957" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32083333" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32910052" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,7 +417,8 @@
     <MESSAGE value="NgStyle setting flex-direction;" />
     <MESSAGE value="Installed bootstrap;" />
     <MESSAGE value="Created RatingInputComponent;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created RatingInputComponent;" />
+    <MESSAGE value="Installed angular-playground;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Installed angular-playground;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/starr/src/styles.scss" />
@@ -505,19 +507,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.ts">
+    <entry file="file://$PROJECT_DIR$/starr-app-master/angular.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#83#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3180">
+          <caret line="159" column="27" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/starr-app-master/src/main.playground.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="540">
           <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding>
             <element signature="e#0#75#0" expanded="true" />
@@ -525,17 +524,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/starr-app-master/angular.json">
+    <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="159" column="27" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
+        <state relative-caret-position="820">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/starr-app-master/src/app/components/rating-input/rating-input.component.sandbox.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="460">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
